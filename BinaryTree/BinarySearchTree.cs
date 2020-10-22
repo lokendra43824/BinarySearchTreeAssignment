@@ -79,36 +79,7 @@ namespace BinaryTree
 
         }
 
-        public bool Search(T element, BinarySearchTree<T> node)
-        {
-            if (node == null)
-            {
-                return false;
-            }
-            if (node.NodeData.Equals(element))
-            {
-                Console.WriteLine("Element Found In BST " + node.NodeData);
-
-                result = true;
-            }
-            else
-            {
-                Console.WriteLine("Current Element is " + node.NodeData + " in BST");
-
-            }
-
-            if (element.CompareTo(node.NodeData) < 0)
-            {
-                Search(element, node.LeftTree);
-            }
-            if (element.CompareTo(node.NodeData) > 0)
-            {
-                Search(element, node.RightTree);
-            }
-
-            return result;
-
-        }
+        
 
     }
 
