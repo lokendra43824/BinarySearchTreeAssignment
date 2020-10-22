@@ -24,12 +24,6 @@ namespace BinaryTree
 
             binarySearchTree.Display();
 
-            binarySearchTree.GetSize();
-
-            binarySearchTree.Search(11, binarySearchTree);
-
-            binarySearchTree.Search(75, binarySearchTree);
-
 
 
         }
